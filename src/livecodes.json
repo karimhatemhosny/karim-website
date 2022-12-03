@@ -1,0 +1,41 @@
+{
+  "title": "Karim's Website",
+  "description": "",
+  "tags": [],
+  "activeEditor": "markup",
+  "markup": {
+    "language": "html",
+    "content": "<!DOCTYPE html>\r\n<html>\r\n  <head>\r\n    <title>Karim's website</title>\r\n  </head>\r\n  <body>\r\n    <h1>My first website</h1>\r\n\r\n    <p id=\"karim\">\r\n      <b>Karim is very <em>intellgent</em></b>\r\n\r\n      <a href=\"https://google.com\" target=\"_blank\">My favorite search engine</a>\r\n    </p>\r\n\r\n    <!--list-->\r\n    <ul>\r\n      <li>list item 1</li>\r\n      <li>list item 2</li>\r\n      <li>list item 3</li>\r\n    </ul>\r\n    <ol>\r\n      <li>list item 1</li>\r\n      <li>list item 2</li>\r\n      <li>list item 3</li>\r\n    </ol>\r\n\r\n    <!-- Tables -->\r\n\r\n    <table border=\"1\">\r\n      <tr>\r\n        <th>Name</th>\r\n        <th>Email</th>\r\n        <th>Age</th>\r\n        <th>Gender</th>\r\n      </tr>\r\n      <tr>\r\n        <td>Karim</td>\r\n        <td>karim@gmail.com</td>\r\n        <td>10</td>\r\n        <td>Male</td>\r\n      </tr>\r\n      <!--Table-->\r\n    </table>\r\n    <br />\r\n    <hr />\r\n    <br />\r\n    <h3>Form</h3>\r\n    <form action=\"\">\r\n      <label>Name</label>\r\n      <input type=\"text\" name=\"fullname\" placeholder=\"your full name\" />\r\n      <br />\r\n\r\n      <label>Email</label>\r\n      <input type=\"email\" name=\"useremail\" placeholder=\"your email\" />\r\n      <br />\r\n\r\n      <label>Password</label>\r\n      <input type=\"password\" name=\"pass\" placeholder=\"at least 8 characters\" />\r\n      <br />\r\n\r\n      <label>Phone number</label>\r\n      <input type=\"number\" name=\"mobie phone\" placeholder=\"your phone number\" />\r\n      <br />\r\n\r\n      <label>Gender</label>\r\n      <select name=\"gender\">\r\n        <option value=\"male\">Male</option>\r\n        <option value=\"female\">Female</option>\r\n      </select>\r\n      <br />\r\n\r\n      <label>Age</label>\r\n      <select name=\"age\">\r\n        <option value=\"7+\">7+</option>\r\n        <option value=\"9+\">9+</option>\r\n        <option value=\"13+\">13+</option>\r\n        <option value=\"17+\">17+</option>\r\n      </select>\r\n      <br />\r\n      <label>Favorite image</label>\r\n      <input type=\"file\" name=\"img\" />\r\n      <br />\r\n\r\n      <label>Favorite Color</label>\r\n      <input type=\"color\" name=\"favorite-color\" />\r\n      <br />\r\n\r\n      <label>Intellgent</label>\r\n      <input type=\"checkbox\" name=\"intellgent\" />\r\n      <br />\r\n\r\n      <label>Intellgence level</label>\r\n      <input type=\"range\" name=\"level\" />\r\n      <br />\r\n\r\n      <label>Date of birth</label>\r\n      <input type=\"date\" name=\"dob\" />\r\n      <br />\r\n\r\n      <br />\r\n      <label>Message</label>\r\n      <textarea name=\"message\" placeholder=\"Message\"></textarea>\r\n      <br />\r\n      <input type=\"submit\" />\r\n    </form>\r\n    <!--button-->\r\n    <button>Click me</button>\r\n    <!--image-->\r\n    <div id=\"flower-div\">\r\n      <img\r\n        title=\"awesome rose!\"\r\n        src=\"https://www.thephotoargus.com/wp-content/uploads/2020/02/rosepic12.jpg\"\r\n        alt=\"beautiful rose\"\r\n        width=\"300px\"\r\n      />\r\n    </div>\r\n\r\n    <!--Quotation-->\r\n    <blockquote\r\n      cite=\"https://www.thephotoargus.com/wp-content/uploads/2020/02/rosepic12.jpg\"\r\n    ></blockquote>\r\n\r\n    <p>The <abbr title=\"World Wide Web\">WWW</abbr> is awesome</p>\r\n    <div style=\"margin-top: 75px\"></div>\r\n    <!--Copyright-->\r\n    <div>Copyright &copy; 29 september 2022</div>\r\n  </body>\r\n</html>\r\n",
+    "contentUrl": "",
+    "selector": ""
+  },
+  "style": {
+    "language": "css",
+    "content": "h1 {\r\n  text-align: center;\r\n  background-color: black;\r\n  color: white;\r\n  padding: 10px;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n\r\n#flower-div {\r\n  text-align: center;\r\n}\r\nh3 {\r\n  text-align: center;\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\np {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\nul {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\nol {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\nform {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\ntable {\r\n  font-family: Arial, Helvetica, sans-serif;\r\n}\r\n#karim {\r\n  font-size: larger;\r\n  color: blue;\r\n}\r\n",
+    "contentUrl": "",
+    "selector": ""
+  },
+  "script": {
+    "language": "javascript",
+    "content": "",
+    "contentUrl": "",
+    "selector": ""
+  },
+  "stylesheets": [],
+  "scripts": [],
+  "cssPreset": "",
+  "processors": [],
+  "customSettings": {
+    "template": {
+      "data": {},
+      "prerender": true
+    }
+  },
+  "imports": {},
+  "types": {},
+  "tests": {
+    "language": "typescript",
+    "content": ""
+  },
+  "version": "0.6.0"
+}
